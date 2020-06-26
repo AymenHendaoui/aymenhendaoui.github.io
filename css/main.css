@@ -227,5 +227,14 @@ div {
   div a:hover span.text:after {
     background: #ece8e1;
   }
+  @media (max-width: 600px){
+    #pointer-ring{
+      visibility: hidden;
+    }
+    #pointer-dot{
+      visibility: hidden;
+    }
+
+  }
   
   
